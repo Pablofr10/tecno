@@ -8,19 +8,19 @@
   {
     "id": "smartphone",
     "nome": "Smartphone",
-    "preco": 2999,
+    "preco": 6999,
     "img": "./api/produtos/smartphone/smartphone.jpg"
   },
   {
     "id": "tablet",
     "nome": "Tablet",
-    "preco": 2999,
+    "preco": 3999,
     "img": "./api/produtos/tablet/tablet.jpg"
   },
   {
     "id": "speaker",
     "nome": "Speaker",
-    "preco": 2999,
+    "preco": 4999,
     "img": "./api/produtos/speaker/speaker.jpg"
   }
 ]
