@@ -25,6 +25,35 @@ body {
   padding: 0 80px;
 }
 
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 80px;
+}
+
+.carrinho_menu::after {
+  content: '';
+  display: inline-block;
+  background: url('./assets/carrinho.svg') no-repeat center center;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.carrinho_menu {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
 /* LISTA PRODUTOS */
 .produtos {
   max-width: 900px;
@@ -84,16 +113,16 @@ body {
   align-items: end;
   grid-gap: 50px;
   padding: 0 50px 50px 0;
-  animation: fadeIn .3s forwards;
+  animation: fadeIn 0.3s forwards;
 }
 
-@keyframes fadeIn{
-    from {
-        transform: translateX(50px);
-    }
-    to{
-        transform: translate3d(0px, 0, 0);
-    }
+@keyframes fadeIn {
+  from {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translate3d(0px, 0, 0);
+  }
 }
 
 .modal_fechar {
@@ -137,6 +166,10 @@ body {
   font-size: 1rem;
   padding: 10px 25px;
   font-family: 'Noto serif';
+}
+
+.esgotado {
+  background: #808080;
 }
 
 .modal_btn:active {
