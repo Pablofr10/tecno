@@ -67,6 +67,12 @@
           </div>
         </div>
       </section>
+
+      <div class="alerta" :class="{ativo: alertaAtivo}">
+          <div class="alerta_mensagem">
+              {{mensagemAlerta}}
+          </div>
+      </div>
     </div>
     <script src="./app.js"></script>
   </body>
