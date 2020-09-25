@@ -15,7 +15,7 @@
   <body>
     <div id="app">
       <section class="modal" v-if="produto">
-        <div class="modal_conatiner">
+        <div class="modal_container">
           <div class="modal_img">
             <img :src="produto.img" :alt="produto.nome" />
           </div>
@@ -30,7 +30,9 @@
             <ul>
               <li v-for="avaliacao in produto.reviews" class="avaliacao">
                 <p class="avaliacao_descricao">{{avaliacao.descricao}}</p>
-                <p class="avaliacao_usuario">{{avaliacao.nome}} | {{avaliacao.estrelas}} estrelas</p>
+                <p class="avaliacao_usuario">
+                  {{avaliacao.nome}} | {{avaliacao.estrelas}} estrelas
+                </p>
               </li>
             </ul>
           </div>
