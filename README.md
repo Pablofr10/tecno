@@ -2,7 +2,7 @@
 
 ## Projeto básico de VueJS utilizando conceitos básicos. Curso Origamid
 
-Processo de instalação
+No projeto foi desenvolvida uma simples loja virtual para aplicar conhecimentos como methods, watch, life cycle e outros. 
 
 ```
 # Instalação
